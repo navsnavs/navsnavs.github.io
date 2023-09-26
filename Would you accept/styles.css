@@ -1,0 +1,202 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.section-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    padding: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.main-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #00d1d1;
+    color: white;
+}
+
+.main-btn:hover {
+    background-color: #00a1a1;
+}
+
+.yes-btn {
+    background-color: #00d1d1;
+    color: white;
+    margin-right: 10px;
+}
+
+.no-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #00a1a1;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #00d1d1;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.no-btn {
+    position: absolute;
+    transition: top 0.3s, left 0.3s;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #8f00d1;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://wallpaperaccess.com/full/1567665.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* ... tu código CSS existente ... */
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.watermark {
+    font-size: 18px;
+    opacity: 0.5;
+}
+/* ... tu código CSS existente ... */
+
+.footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Cambia la opacidad aquí */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.watermark {
+    flex: 100; /* Ocupa todo el espacio posible en el centro */
+    text-align: center; /* Alinea el nombre a la izquierda */
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    display: flex;
+    margin-left: 10px;
+    transition: transform 0.3s;
+}
+
+/* ... otros estilos ... */
+
+
+
+
